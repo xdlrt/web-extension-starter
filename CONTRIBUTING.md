@@ -24,7 +24,7 @@ Please request new features by opening a GitHub issue.
 
 ## Reporting Bugs
 
-**If you find a security vulnerability, do NOT open an issue. Email aeksco@gmail.COM instead.**
+**If you find a security vulnerability, do NOT open an issue. Email xdlrt0111@163.com instead.**
 
 Please check open issues before opening a new ticket. Also, provide any references to FAQs or debugging guides that you might have.
 
