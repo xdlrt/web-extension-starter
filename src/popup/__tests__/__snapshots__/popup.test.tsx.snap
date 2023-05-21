@@ -2,7 +2,7 @@
 
 exports[`test_popup > component renders 1`] = `
 <div
-  className="_popupContainer_36d511"
+  className="flex"
 >
   <div
     className="mx-4 my-4"
@@ -25,15 +25,13 @@ exports[`test_popup > component renders 1`] = `
       className="grid gap-3 grid-cols-2 mt-3 w-full"
     >
       <button
-        className="_btn_a28a42"
-        data-testid="scroll-to-top"
+        className="inline-flex items-center justify-center px-4 py-2 border border-transparent text-sm font-medium whitespace-nowrap rounded-md shadow-sm text-white bg-indigo-600 hover:bg-indigo-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500"
         onClick={[Function]}
       >
         Scroll To Top
       </button>
       <button
-        className="_btn_a28a42"
-        data-testid="scroll-to-bottom"
+        className="inline-flex items-center justify-center px-4 py-2 border border-transparent text-sm font-medium whitespace-nowrap rounded-md shadow-sm text-white bg-indigo-600 hover:bg-indigo-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500"
         onClick={[Function]}
       >
         Scroll To Bottom

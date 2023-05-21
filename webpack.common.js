@@ -21,20 +21,6 @@ module.exports = {
         test: /\app.css$/,
         use: ["style-loader", "css-loader", "postcss-loader"],
       },
-      // Load .module.css files as CSS modules
-      {
-        test: /\.module.css$/,
-        use: [
-          "style-loader",
-          {
-            loader: "css-loader",
-            options: {
-              modules: true,
-            },
-          },
-          "postcss-loader",
-        ],
-      },
     ],
   },
   resolve: {

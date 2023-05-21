@@ -55,17 +55,6 @@ module.exports = {
       use: ["style-loader", "css-loader", "postcss-loader"]
     });
 
-    // Load .module.css files as CSS modules
-    config.module.rules.push({
-      test: /\.module.css$/,
-      use: ["style-loader", {
-        loader: "css-loader",
-        options: {
-          modules: true
-        }
-      }, "postcss-loader"]
-    });
-
     // Return the final Webpack configuration
     return config;
   },

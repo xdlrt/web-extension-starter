@@ -2,9 +2,6 @@ import React from "react";
 import { Hello } from "../components/hello";
 import browser, { Tabs } from "webextension-polyfill";
 import { Scroller } from "../components/scroller";
-import css from "./styles.module.css";
-
-// // // //
 
 // Scripts to execute in current tab
 const scrollToTopPosition = 0;
@@ -47,8 +44,6 @@ function executeScript(position: number): void {
     });
 }
 
-// // // //
-
 export function Popup() {
   // Sends the `popupMounted` event
   React.useEffect(() => {
@@ -57,7 +52,7 @@ export function Popup() {
 
   // Renders the component tree
   return (
-    <div className={css.popupContainer}>
+    <div className="flex">
       <div className="mx-4 my-4">
         <Hello />
         <hr />
