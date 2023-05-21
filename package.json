@@ -1,6 +1,6 @@
 {
-  "name": "react-typescript-chrome-extension-starter",
-  "version": "2.0.0",
+  "name": "web-extension-starter",
+  "version": "1.0.0",
   "description": "Web Extension starter kit built with React, TypeScript, Tailwind CSS, EsLint, Prettier & Webpack",
   "main": "index.js",
   "scripts": {
@@ -14,7 +14,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/aeksco/react-typescript-chrome-extension-starter.git"
+    "url": "git+https://github.com/yeshu/web-extension-starter.git"
   },
   "keywords": [
     "react",
@@ -23,12 +23,12 @@
     "extension",
     "boilerplate"
   ],
-  "author": "Alexander Schwartzberg",
+  "author": "yeshu",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/aeksco/react-typescript-chrome-extension-starter/issues"
+    "url": "https://github.com/xdlrt/web-extension-starter/issues"
   },
-  "homepage": "https://github.com/aeksco/react-typescript-chrome-extension-starter#readme",
+  "homepage": "https://github.com/xdlrt/web-extension-starter#readme",
   "devDependencies": {
     "@babel/core": "^7.21.8",
     "@babel/preset-env": "^7.21.5",
