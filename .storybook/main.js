@@ -18,13 +18,9 @@ module.exports = {
         builder: "webpack5",
     },
     webpackFinal: async (config) => {
-        // Setup @src path resolution for TypeScript files
         config.resolve = {
             ...config.resolve,
             extensions: [".ts", ".tsx", ".js"],
-            alias: {
-                "@src": path.resolve(__dirname, "../src/"),
-            },
         };
 
         // Setup module replacement for mocked webextension-polyfill

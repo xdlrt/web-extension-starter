@@ -37,11 +37,7 @@ module.exports = {
       },
     ],
   },
-  // Setup @src path resolution for TypeScript files
   resolve: {
     extensions: [".ts", ".tsx", ".js"],
-    alias: {
-      "@src": path.resolve(__dirname, "src/"),
-    },
   },
 };
